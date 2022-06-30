@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me!</title>
+  </head>
+  <body>
+      <center>
+      <h1>Contact me!</h1>
+      <hr>
+      <h3>Mobile:</h3>
+      <p><strong>0210 242 3700</strong></p>
+      <hr>
+      <h3>Email:</h3>
+      <p><strong><a href="mailto: tjielep@gmail.com">tjielep@gmail.com</a></strong></p>
+      <br>
+      <hr>
+      </center>
+      <hr>
+      <!--Forms
+          Label and inputs help you to make simple forms
+          Submitting a form, i think we need to say what the submit button does-->
+      <form action="mailto:tjielep@gmail.com" method="post" enctype="text/plain">
+          <!--Action up there, is for what happens with the form
+              By default, action is set to index which means it takes you back to index webpage
+              If we change it to mailto then that means it opens up your default email program wanting to send an email to the specified email address
+              It will open whatever is your default mailto: application protocol handler
+              enctype = Says which type the text from the form should be handled as
+              text/plain = plain text, UTF-8 would mean it has %26 and stuff-->
+          <label for="">Your Name:</label>
+          <input type="text" name="Name">
+          <!--Several different input options, read em-->
+          <br>
+          <label for="">Your Email:</label>
+          <input type="email" name="Email">
+          <!--Email input has a bit of extra validation checking it is in the right format-->
+          <br>
+          <label for="">Your Message:</label>
+          <br>
+          <textarea name="Message" id="" cols="30" rows="10"></textarea>
+          <br>
+          <input type="submit">
+
+      </form>
+<hr>
+<p><a href="index.html">Back to Homepage</a></p>
+
+
+
+
+  </body>
+</html>
