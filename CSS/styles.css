@@ -1,0 +1,144 @@
+div {
+  margin: 0;
+}
+
+body {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 100px 0 0 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin: 0;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 0;
+}
+
+a {
+  color:#11999E;
+}
+
+a:hover{
+  color:gold;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 30%;
+  margin: 100px auto 100px auto;
+}
+
+
+/***Classes***/
+.top-container {
+    background-color: #EAF6F6;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.mountain {
+  margin: 0 auto 0 auto;
+  width: 400px;
+  position: relative;
+  bottom: 55px;
+}
+
+.cloud1 {
+  position: absolute;
+  top: 10%;
+  left:65%;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 15%;
+  top: 60%;
+}
+
+.middle-container {
+  margin: 0 auto 50px auto;
+}
+
+.profile-image {
+  margin: 50px auto;
+}
+
+.intro {
+  margin: 50px auto;
+  width: 55%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill1 {
+  width: 25%;
+  float:left;
+  margin: 0 30px 0 0;
+}
+/***This percentage width changes the image width based on its PARENT, the div section***/
+.skill2 {
+  width: 25%;
+  float: right;
+  margin: 0 0 0 30px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.bottom-container {
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #66BFBF;
+}
+
+.footer-link {
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+}
+
+.copyright {
+  margin: 50px auto 0
+}
